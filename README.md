@@ -10,12 +10,12 @@
     </a>
 </p>
 
-<a href="https://github.com/Tamilupdates/KPSML-X/fork"><img alt="Forks" src="https://img.shields.io/github/forks/Tamilupdates/KPSML-X?style=plastic&logo=git&color=orange&label=Forks"></a> <a href="https://hub.docker.com/r/nanthakps/kpsmlx"><img src="https://img.shields.io/docker/pulls/nanthakps/kpsmlx?style=plastic&logo=docker&label=Pulls" alt="Docker Pulls"></a>
-
-<!-- <a href="https://github.com/Tamilupdates/KPSML-X/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Tamilupdates/KPSML-X?style=plastic&logo=github&color=FFD700&label=Stars"></a>
--->
+<a href="https://github.com/Tamilupdates/KPSML-X/fork"><img alt="Forks" src="https://img.shields.io/github/forks/Tamilupdates/KPSML-X?style=plastic&logo=git&color=orange&label=Forks"></a> 
+<a href="https://github.com/Tamilupdates/KPSML-X/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Tamilupdates/KPSML-X?style=plastic&logo=github&color=FFD700&label=Stars"></a>
+<a href="https://hub.docker.com/r/nanthakps/kpsmlx"><img src="https://img.shields.io/docker/pulls/nanthakps/kpsmlx?style=plastic&logo=docker&label=Pulls" alt="Docker Pulls"></a>
 
 <a href="https://telegram.me/KPSBots"><img alt="Telegram Channel" img src="https://img.shields.io/badge/Join%20on%20Telegram%20Channel-0088CC?style=plastic&logo=telegram&logoColor=white&labelColor=0A3D62" width="250"></a>
+
 
 #### ***⚡️ Download Anything. Upload Everywhere. 🔥***
 
@@ -384,7 +384,7 @@ heroku logs -a APP_NAME
 
 - `DATABASE_URL`: Database URL of MongoDb to store all your files and Vars. Adding this will be Helpful. `Str`
 
-- `UPSTREAM_REPO`: GitLab repository URL, if your repo is private add `https://username:{githubtoken}@github.com/{username}/{reponame}` format. `Str`.
+- `UPSTREAM_REPO`: GitHub repository URL, if your repo is private add `https://username:{githubtoken}@github.com/{username}/{reponame}` format. `Str`.
     - **NOTE**:
         - Any change in docker you need to deploy/build again with updated repo to take effect. 
         - **No Need to delete .gitignore file or any File**
